@@ -1,0 +1,140 @@
+.mydiv{
+	box-sizing:border-box;
+	border: solid 15px #e51b1b;
+	padding: 0;
+	float:left;
+	margin: 25px 25px 25px 0;
+	}
+	/*next is shared by both photos*/
+.center-responsive{ 
+
+	max-width:100%; 
+	max-height: auto;
+	margin:0 auto;
+	margin: 50px 15px 15px 15px;
+	}
+	/*the "audio" elemnt was too narrow*/
+audio{
+ 	width:100%;
+}
+
+/***********************************/
+
+
+
+/* GIF animation */
+.anim2{
+	border: solid 15px #cccccc;
+	
+}
+
+body{
+	margin: 50px 15% 50px 15%;
+	background-color:#bbeb7e;
+	/* A Google Font*/
+	font-family: 'Bitter', sans-serif;	
+	color:#000000;
+	}
+
+h5{
+	font-size: 20.5px;
+	margin-bottom: 75px;
+}
+
+h4{
+	font-size: 40px;
+	margin-bottom: 0px;
+}
+h3{
+	font-size: 36px;
+	margin-bottom: 0;
+	}
+h2{
+	font-size: 20px;
+	margin-bottom: 0;
+}
+p{
+	text-align: justify;
+	line-height: 20px;
+	}
+
+
+.left-responsive{ 
+	max-width:100%
+	height: auto;
+	float: left;
+	margin: 15px 15px 15px 15px;
+	border: solid 3px #000000
+}
+
+
+.right-responsive{ 
+	max-width:80%
+	height: auto;
+	float: right;
+	margin: 15px 15px 15px 15px;
+	border: solid 3px #000000
+}
+
+.bannerbackground{
+	height:150px;
+	width:100%;
+	background-image:url("images-originals/banner.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-color: #ffffff;
+	padding-top:75px;
+	font-family: "Impact", Charcoal, sans-serif;
+	font-size:75px;
+	color: #FFFFFF;
+	text-align: center;
+	margin-bottom:70px;
+	border: solid 3px #000000
+}
+
+/************* Nav stuff ****************/
+
+.nav-container{ 	
+width:100%; 
+background-color: #471981 ;
+box-shadow: 2px 2px 2px #000000;  
+position:fixed; 
+left:0;  
+top:0;   
+} 
+
+.nav-container ul{
+width:100%;
+margin: auto;
+padding:0; /*Ul would have default padding otherwise*/
+list-style-type: none; 
+font-size:16px;  
+font-family:"Gill Sans", Helvetica, Arial, sans-serif;
+}  
+
+.nav-container li{
+float: left; /*each seperate item tries to float left*/
+}  
+
+.nav-container a{ 
+display: block;  /*let’s us treat each link as a box, which can be sized and styled*/ 
+box-sizing: border-box; /*allows the "width" to include borders and padding*/
+width: 130px; 
+padding: 10px;
+text-decoration: none;  /*removes the default underline*/
+text-align: center; 
+background-color:#c271bf; 
+color:#EDF4E6;
+} 
+
+.nav-container a:hover{ 
+background-color: #471981 ;
+/* changes link-box color on rollover*/ 
+}
+
+.content-spread {
+	width: 100%;
+	min-width: 400px;
+	max-width: 851px;
+}
+
